@@ -1,0 +1,12 @@
+{
+    "python.languageServer": "Pylance",
+    // use mypy
+    "python.linting.mypyEnabled": true,
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.wordBasedSuggestions": false,
+        "editor.defaultFormatter": "ms-python.vscode-pylance",
+    },
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": true
+}
